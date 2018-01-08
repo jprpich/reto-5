@@ -1,5 +1,3 @@
-require 'pry'
-
 class Question
 
   def initialize(term, definition)
@@ -39,16 +37,10 @@ class Game
 
   private 
     def build_questions 
-      # questions = []
-
       File.open("archivo.txt").each do |line|
         new_line = line.split(";")
         @questions << Question.new(new_line[1].strip, new_line[0])
       end
-
-      # questions.each do |question|
-      #   @questions << Question.new(question[:term], question[:definition])
-      # end
     end
 
 end
