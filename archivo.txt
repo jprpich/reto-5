@@ -1,0 +1,8 @@
+The current object, class, or module; self
+The inverse of if; unless
+Skip to the next element of a .each iterator; next 
+Run this code if an exception happens; rescue 
+The parent class of this class; super 
+The inverse of while, execute block as long as false; until 
+Represents 'nothing' or 'no value'; nil 
+Stores a key=value mapping of things; hash 
